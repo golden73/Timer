@@ -42,8 +42,8 @@ h1 {
 }
 
 #timer {
-    display: grid; /* Switched to grid for better control */
-    grid-template-columns: repeat(2, 1fr); /* 2x2 grid on small screens */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     justify-content: center;
 }
@@ -82,7 +82,7 @@ h1 {
     }
 
     #timer {
-        grid-template-columns: repeat(4, 1fr); /* Back to 4 in a row */
+        grid-template-columns: repeat(4, 1fr);
         gap: 20px;
     }
 
